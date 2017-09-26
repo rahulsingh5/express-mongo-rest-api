@@ -1,0 +1,39 @@
+{
+  "name": "express-mongo-rest-api",
+  "version": "1.0.0",
+  "description": "This is basics of rest api using express and mongo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon application.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rahulsingh5/express-mongo-rest-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rahulsingh5/express-mongo-rest-api/issues"
+  },
+  "homepage": "https://github.com/rahulsingh5/express-mongo-rest-api#readme",
+  "devDependencies": {
+    "@types/body-parser": "^1.16.5",
+    "@types/express": "^4.0.37",
+    "@types/joi": "^10.4.3",
+    "@types/mongoose": "^4.7.23",
+    "@types/morgan": "^1.7.33",
+    "@types/node": "^8.0.31",
+    "typescript": "^2.5.2"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.15.5",
+    "express-promise-router": "^2.0.0",
+    "joi": "^11.1.1",
+    "mongoose": "^4.11.13",
+    "morgan": "^1.8.2",
+    "nodemon": "^1.12.1"
+  }
+}
